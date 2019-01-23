@@ -1,7 +1,31 @@
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 body {
     font-family: 'Playfair Display', serif;
+}
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #7d7d7d;
+}
+a:hover {
+    color: #03a9f4;
+}
+li {
+    text-transform: uppercase;
+    list-style-type: none;
+}
+h2 {
+    font-size: 24px;
+}
+.name_first {
+    text-transform: uppercase;
+    color: #c8c3b9;
 }
