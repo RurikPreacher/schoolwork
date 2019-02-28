@@ -24,8 +24,75 @@ li {
 }
 h2 {
     font-size: 24px;
+    margin-bottom: 30px;
 }
 .name_first {
     text-transform: uppercase;
     color: #c8c3b9;
+}
+
+header {
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: contents; 
+}
+
+.row-1, .row-2, .row-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 140px;
+}
+
+.row-3 {
+    margin: 0px;
+}
+
+.block-1, .block-2 {
+    width: 420px;
+}
+
+.name_first {
+    margin: 30px 0px 30px;
+}
+
+.button-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 70px;
+}
+button {
+    font-family: 'Playfair Display', serif;
+    border: 1px solid;
+    background: none;
+    padding: 20px 35px;
+    font-size: 16px;
+    color: #707070;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+button:hover {
+    color: #fff;
+}
+button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #03a9f4;
+    z-index: -1;
+    transition: 0.8s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+button:hover::before {
+    height: 180%;
 }
